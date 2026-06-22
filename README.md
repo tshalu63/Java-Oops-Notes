@@ -1,477 +1,477 @@
-Java Object-Oriented Programming (OOP) Complete Notes
+# Java Object-Oriented Programming (OOP) Complete Notes
 
-1. What is OOP?
+## 1. What is OOP?
 
-Object-Oriented Programming (OOP) is a programming paradigm that organizes software around objects rather than functions and procedures.
+Object-Oriented Programming (OOP) is a programming paradigm that organizes software around **objects** rather than functions and procedures.
 
-- OOP models real-world entities.
-- Each object contains data and behavior.
-- Makes programs easier to develop and maintain.
-- Java is primarily an OOP language.
+* OOP models real-world entities.
+* Each object contains data and behavior.
+* Makes programs easier to develop and maintain.
+* Java is primarily an OOP language.
 
-Why OOP?
+### Why OOP?
 
-- Improves code organization.
-- Increases code reusability.
-- Enhances security.
-- Simplifies maintenance.
-- Makes applications scalable.
+* Improves code organization.
+* Increases code reusability.
+* Enhances security.
+* Simplifies maintenance.
+* Makes applications scalable.
 
-Keywords
+### Keywords
 
-Reusability
+#### Reusability
 
-- Writing code once and using it multiple times.
-- Reduces duplicate code.
-- Achieved mainly through inheritance.
+* Writing code once and using it multiple times.
+* Reduces duplicate code.
+* Achieved mainly through inheritance.
 
-Scalability
+#### Scalability
 
-- Ability of software to grow without major modifications.
-- Easy to add new features.
+* Ability of software to grow without major modifications.
+* Easy to add new features.
 
-Maintainability
+#### Maintainability
 
-- Easier to fix bugs and update code.
+* Easier to fix bugs and update code.
 
-Modularity
+#### Modularity
 
-- Dividing a program into smaller independent modules.
+* Dividing a program into smaller independent modules.
 
 ---
 
-2. Class and Object
+# 2. Class and Object
 
-Class
+## Class
 
 A class is a blueprint or template used to create objects.
 
-Characteristics
+### Characteristics
 
-- User-defined data type.
-- Contains attributes and methods.
-- Does not occupy memory until objects are created.
+* User-defined data type.
+* Contains attributes and methods.
+* Does not occupy memory until objects are created.
 
-Example
+### Example
 
 Student class may contain:
 
-- Name
-- Roll Number
-- Age
-- Display Information Method
+* Name
+* Roll Number
+* Age
+* Display Information Method
 
 ---
 
-Object
+## Object
 
 An object is an instance of a class.
 
-Characteristics
+### Characteristics
 
-- Occupies memory.
-- Has state and behavior.
-- Represents a real-world entity.
+* Occupies memory.
+* Has state and behavior.
+* Represents a real-world entity.
 
-Keywords
+### Keywords
 
-State
+#### State
 
 Current value of object properties.
 
-Behavior
+#### Behavior
 
 Actions performed by the object.
 
-Identity
+#### Identity
 
 Unique identification of an object.
 
 ---
 
-3. Encapsulation
+# 3. Encapsulation
 
 Encapsulation means wrapping data and methods into a single unit.
 
-Purpose
+### Purpose
 
-- Protect data from unauthorized access.
-- Improve security.
-- Achieve data hiding.
+* Protect data from unauthorized access.
+* Improve security.
+* Achieve data hiding.
 
-Features
+### Features
 
-- Variables are usually private.
-- Access provided through methods.
+* Variables are usually private.
+* Access provided through methods.
 
-Advantages
+### Advantages
 
-- Better security.
-- Better control over data.
-- Easy maintenance.
+* Better security.
+* Better control over data.
+* Easy maintenance.
 
-Keywords
+### Keywords
 
-Data Hiding
+#### Data Hiding
 
 Restricting direct access to internal data.
 
-Getter
+#### Getter
 
 Method used to read data.
 
-Setter
+#### Setter
 
 Method used to modify data.
 
 ---
 
-4. Abstraction
+# 4. Abstraction
 
 Abstraction means showing only essential information and hiding implementation details.
 
-Real-Life Example
+### Real-Life Example
 
 ATM Machine
 
 Visible:
 
-- Withdraw
-- Deposit
-- Check Balance
+* Withdraw
+* Deposit
+* Check Balance
 
 Hidden:
 
-- Internal banking processes
+* Internal banking processes
 
-Benefits
+### Benefits
 
-- Reduces complexity.
-- Improves security.
-- Makes code easier to understand.
+* Reduces complexity.
+* Improves security.
+* Makes code easier to understand.
 
-Types
+### Types
 
-Abstract Class
+#### Abstract Class
 
 Can contain:
 
-- Abstract methods
-- Normal methods
+* Abstract methods
+* Normal methods
 
-Interface
+#### Interface
 
 Contains behavior contract that classes implement.
 
-Keywords
+### Keywords
 
-Implementation
+#### Implementation
 
 Actual logic behind functionality.
 
-Contract
+#### Contract
 
 A set of rules that implementing classes must follow.
 
 ---
 
-5. Inheritance
+# 5. Inheritance
 
 Inheritance allows one class to acquire properties and methods of another class.
 
-Purpose
+### Purpose
 
-- Reuse existing code.
-- Reduce redundancy.
-- Improve maintainability.
+* Reuse existing code.
+* Reduce redundancy.
+* Improve maintainability.
 
-Parent Class
+### Parent Class
 
 Class whose properties are inherited.
 
-Child Class
+### Child Class
 
 Class that inherits properties.
 
-Types of Inheritance in Java
+### Types of Inheritance in Java
 
-Single Inheritance
+#### Single Inheritance
 
 One child inherits one parent.
 
-Multilevel Inheritance
+#### Multilevel Inheritance
 
 Chain of inheritance.
 
-Hierarchical Inheritance
+#### Hierarchical Inheritance
 
 Multiple child classes inherit one parent.
 
-Multiple Inheritance
+#### Multiple Inheritance
 
 Not supported through classes.
 Supported through interfaces.
 
-Keywords
+### Keywords
 
-IS-A Relationship
+#### IS-A Relationship
 
 Inheritance relationship.
 
 Example:
 Dog IS-A Animal
 
-Code Redundancy
+#### Code Redundancy
 
 Repeating same code multiple times.
 
 ---
 
-6. Polymorphism
+# 6. Polymorphism
 
 Polymorphism means "Many Forms".
 
 Same method behaves differently under different situations.
 
-Types
+### Types
 
-Compile-Time Polymorphism
+## Compile-Time Polymorphism
 
 Achieved using:
 
-- Method Overloading
+* Method Overloading
 
-Method Overloading
+### Method Overloading
 
 Same method name with different parameters.
 
-Features
+### Features
 
-- Faster execution.
-- Resolved during compilation.
+* Faster execution.
+* Resolved during compilation.
 
 ---
 
-Runtime Polymorphism
+## Runtime Polymorphism
 
 Achieved using:
 
-- Method Overriding
+* Method Overriding
 
-Method Overriding
+### Method Overriding
 
 Child class provides its own implementation.
 
-Features
+### Features
 
-- Resolved at runtime.
-- Supports dynamic behavior.
+* Resolved at runtime.
+* Supports dynamic behavior.
 
-Keywords
+### Keywords
 
-Dynamic Binding
+#### Dynamic Binding
 
 Method call decided at runtime.
 
-Static Binding
+#### Static Binding
 
 Method call decided during compilation.
 
 ---
 
-7. Constructor
+# 7. Constructor
 
 A constructor initializes objects.
 
-Features
+### Features
 
-- Same name as class.
-- No return type.
-- Automatically called during object creation.
+* Same name as class.
+* No return type.
+* Automatically called during object creation.
 
-Types
+### Types
 
-Default Constructor
+#### Default Constructor
 
 Provided automatically by Java.
 
-Parameterized Constructor
+#### Parameterized Constructor
 
 Accepts parameters.
 
-Copy Constructor
+#### Copy Constructor
 
 Copies values from another object.
 
 ---
 
-8. Constructor Chaining
+# 8. Constructor Chaining
 
 Calling one constructor from another constructor.
 
-Keywords
+### Keywords
 
-this()
+#### this()
 
 Calls another constructor of same class.
 
-super()
+#### super()
 
 Calls parent class constructor.
 
-Advantages
+### Advantages
 
-- Reduces duplicate code.
-- Improves reusability.
+* Reduces duplicate code.
+* Improves reusability.
 
 ---
 
-9. Access Specifiers
+# 9. Access Specifiers
 
 Control accessibility of members.
 
-Public
+## Public
 
-- Accessible everywhere.
+* Accessible everywhere.
 
-Private
+## Private
 
-- Accessible only within same class.
+* Accessible only within same class.
 
-Protected
+## Protected
 
-- Accessible within package and subclasses.
+* Accessible within package and subclasses.
 
-Default
+## Default
 
-- Accessible only within same package.
+* Accessible only within same package.
 
-Importance
+### Importance
 
-- Security.
-- Encapsulation.
-- Controlled access.
+* Security.
+* Encapsulation.
+* Controlled access.
 
 ---
 
-10. this Keyword
+# 10. this Keyword
 
 Refers to current object.
 
-Uses
+### Uses
 
-- Access instance variables.
-- Call current class constructor.
-- Pass current object.
+* Access instance variables.
+* Call current class constructor.
+* Pass current object.
 
 ---
 
-11. super Keyword
+# 11. super Keyword
 
 Refers to parent class object.
 
-Uses
+### Uses
 
-- Access parent variables.
-- Access parent methods.
-- Call parent constructor.
+* Access parent variables.
+* Access parent methods.
+* Call parent constructor.
 
 ---
 
-12. Static Keyword
+# 12. Static Keyword
 
 Belongs to class rather than object.
 
-Static Variable
+### Static Variable
 
 Shared among all objects.
 
-Static Method
+### Static Method
 
 Can be called without object creation.
 
-Advantages
+### Advantages
 
-- Memory efficient.
-- Common data sharing.
+* Memory efficient.
+* Common data sharing.
 
 ---
 
-13. Final Keyword
+# 13. Final Keyword
 
 Used to restrict modification.
 
-Final Variable
+## Final Variable
 
 Cannot change value.
 
-Final Method
+## Final Method
 
 Cannot be overridden.
 
-Final Class
+## Final Class
 
 Cannot be inherited.
 
 ---
 
-14. Abstract Class
+# 14. Abstract Class
 
 A class declared using abstract keyword.
 
-Features
+### Features
 
-- Cannot create objects.
-- May contain abstract methods.
-- May contain concrete methods.
+* Cannot create objects.
+* May contain abstract methods.
+* May contain concrete methods.
 
-Advantages
+### Advantages
 
-- Partial abstraction.
-- Common functionality sharing.
+* Partial abstraction.
+* Common functionality sharing.
 
 ---
 
-15. Interface
+# 15. Interface
 
 Blueprint of behavior.
 
-Features
+### Features
 
-- Supports multiple inheritance.
-- Provides abstraction.
-- Defines contracts.
+* Supports multiple inheritance.
+* Provides abstraction.
+* Defines contracts.
 
-Advantages
+### Advantages
 
-- Loose coupling.
-- Flexibility.
-
----
-
-16. Abstract Class vs Interface
-
-Abstract Class
-
-- Can have abstract and normal methods.
-- Supports constructors.
-- Partial abstraction.
-
-Interface
-
-- Supports multiple inheritance.
-- No constructors.
-- Complete abstraction concept.
+* Loose coupling.
+* Flexibility.
 
 ---
 
-17. Association
+# 16. Abstract Class vs Interface
+
+## Abstract Class
+
+* Can have abstract and normal methods.
+* Supports constructors.
+* Partial abstraction.
+
+## Interface
+
+* Supports multiple inheritance.
+* No constructors.
+* Complete abstraction concept.
+
+---
+
+# 17. Association
 
 Relationship between two objects.
 
-Types
+### Types
 
-Aggregation
+#### Aggregation
 
 Weak relationship.
 
@@ -480,7 +480,7 @@ Department has Teachers.
 
 Teachers can exist independently.
 
-Composition
+#### Composition
 
 Strong relationship.
 
@@ -491,168 +491,168 @@ Rooms depend on House.
 
 ---
 
-18. Coupling
+# 18. Coupling
 
 Degree of dependency between classes.
 
-Tight Coupling
+## Tight Coupling
 
-- High dependency.
-- Difficult maintenance.
+* High dependency.
+* Difficult maintenance.
 
-Loose Coupling
+## Loose Coupling
 
-- Low dependency.
-- Easy maintenance.
+* Low dependency.
+* Easy maintenance.
 
-Why Loose Coupling?
+### Why Loose Coupling?
 
-- Better flexibility.
-- Easy testing.
-- Easy updates.
+* Better flexibility.
+* Easy testing.
+* Easy updates.
 
 ---
 
-19. Cohesion
+# 19. Cohesion
 
 Measures how closely related functionalities are inside a class.
 
-High Cohesion
+## High Cohesion
 
-- Better design.
-- Easier maintenance.
+* Better design.
+* Easier maintenance.
 
-Low Cohesion
+## Low Cohesion
 
-- Difficult management.
+* Difficult management.
 
 ---
 
-20. Deep Copy and Shallow Copy
+# 20. Deep Copy and Shallow Copy
 
-Shallow Copy
+## Shallow Copy
 
-- References shared.
-- Same memory reference.
+* References shared.
+* Same memory reference.
 
-Disadvantage
+### Disadvantage
 
 Changes affect both objects.
 
 ---
 
-Deep Copy
+## Deep Copy
 
-- Independent memory allocation.
-- Separate references.
+* Independent memory allocation.
+* Separate references.
 
-Advantage
+### Advantage
 
 Changes do not affect original object.
 
 ---
 
-21. Exception Handling
+# 21. Exception Handling
 
 Mechanism to handle runtime errors.
 
-Purpose
+### Purpose
 
-- Prevent abnormal termination.
-- Maintain program flow.
+* Prevent abnormal termination.
+* Maintain program flow.
 
-Keywords
+### Keywords
 
-try
+#### try
 
 Contains risky code.
 
-catch
+#### catch
 
 Handles exception.
 
-finally
+#### finally
 
 Always executes.
 
-throw
+#### throw
 
 Manually creates exception.
 
-throws
+#### throws
 
 Declares possible exceptions.
 
 ---
 
-22. Object Class
+# 22. Object Class
 
 Root class of Java hierarchy.
 
 Every class indirectly inherits Object class.
 
-Important Methods
+### Important Methods
 
-toString()
+#### toString()
 
 Returns string representation.
 
-equals()
+#### equals()
 
 Compares objects.
 
-hashCode()
+#### hashCode()
 
 Returns hash value.
 
-clone()
+#### clone()
 
 Creates object copy.
 
 ---
 
-23. Method Overloading vs Method Overriding
+# 23. Method Overloading vs Method Overriding
 
-Overloading
+## Overloading
 
-- Same class.
-- Different parameters.
-- Compile-time polymorphism.
+* Same class.
+* Different parameters.
+* Compile-time polymorphism.
 
-Overriding
+## Overriding
 
-- Parent-child classes.
-- Same signature.
-- Runtime polymorphism.
+* Parent-child classes.
+* Same signature.
+* Runtime polymorphism.
 
 ---
 
-24. Virtual Keyword
+# 24. Virtual Keyword
 
 Java does not have a virtual keyword like C++.
 
-Why?
+### Why?
 
 In Java, non-static methods are virtual by default.
 
-Benefits
+### Benefits
 
-- Supports runtime polymorphism.
-- Dynamic method dispatch.
+* Supports runtime polymorphism.
+* Dynamic method dispatch.
 
 ---
 
-25. JVM Related OOP Terms
+# 25. JVM Related OOP Terms
 
-Dynamic Method Dispatch
+## Dynamic Method Dispatch
 
 Runtime selection of overridden methods.
 
-Runtime Polymorphism
+## Runtime Polymorphism
 
 Behavior determined during execution.
 
-Object Creation Process
+## Object Creation Process
 
 1. Memory allocation.
 2. Constructor call.
@@ -661,51 +661,51 @@ Object Creation Process
 
 ---
 
-Quick Revision Sheet
+# Quick Revision Sheet
 
-Four Pillars of OOP
+### Four Pillars of OOP
 
 1. Encapsulation → Data Hiding
 2. Abstraction → Hide Implementation
 3. Inheritance → Reusability
 4. Polymorphism → Many Forms
 
-Important Keywords
+### Important Keywords
 
-- class
-- object
-- this
-- super
-- static
-- final
-- abstract
-- interface
-- extends
-- implements
-- public
-- private
-- protected
-- try
-- catch
-- finally
-- throw
-- throws
+* class
+* object
+* this
+* super
+* static
+* final
+* abstract
+* interface
+* extends
+* implements
+* public
+* private
+* protected
+* try
+* catch
+* finally
+* throw
+* throws
 
-Interview Keywords
+### Interview Keywords
 
-- Reusability
-- Scalability
-- Maintainability
-- Modularity
-- Data Hiding
-- Dynamic Binding
-- Static Binding
-- Loose Coupling
-- High Cohesion
-- Runtime Polymorphism
-- Compile-Time Polymorphism
-- Constructor Chaining
-- Deep Copy
-- Shallow Copy
+* Reusability
+* Scalability
+* Maintainability
+* Modularity
+* Data Hiding
+* Dynamic Binding
+* Static Binding
+* Loose Coupling
+* High Cohesion
+* Runtime Polymorphism
+* Compile-Time Polymorphism
+* Constructor Chaining
+* Deep Copy
+* Shallow Copy
 
-End of Notes
+# End of Notes
